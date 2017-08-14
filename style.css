@@ -1,0 +1,17 @@
+body {
+    background-color: gainsboro;
+
+}
+
+.container {
+    border: solid green;
+
+}
+
+.row {
+    border: solid blue;
+}
+
+.col {
+    border: solid deeppink;
+}
