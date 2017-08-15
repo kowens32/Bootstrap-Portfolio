@@ -16,3 +16,12 @@ body {
     border: solid deeppink;
 }
 
+.social {
+    width: 70px;
+    padding:10px 10px 10px 10px;
+    align-content: center;
+}
+
+.fixed-bottom {
+    text-align: center;
+}

@@ -8,10 +8,8 @@
 
 </head>
 <body>
-
-<div class="container">
-    <nav class="navbar navbar-default">
-
+<nav class="navbar navbar-default">
+    <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
@@ -22,28 +20,45 @@
             <a class="navbar-brand" href="#">Kimberly Owens</a>
         </div>
 
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+</nav>
 
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">About<span class="sr-only">(current)</span></a></li>
-                <li><a href="../navbar-static-top/">Portfolio</a></li>
-                <li><a href="../navbar-fixed-top/">Contact</a></li>
-            </ul>
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div>
+        <div class="panel panel-default col-sm-3">
+            <div class="panel-heading">Contact Me</div>
+            <div class="panel-body"><a href="https://www.linkedin.com/in/kimberly-owens2232/"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
+                <a href="https://github.com/kowens32"><img src="assets/images/github.png" class="social" alt="GitHub" /></a>
+                <a href="https://stackoverflow.com/users/8166556/kimberly-owens"><img src="assets/images/stackoverlead.png" class="social" alt="StackOverflow" /></a></div>
         </div>
-    </nav>
-
-    <!----One row with two columns---->
-    <div class="container-fluid">
-        <h1>Hello World!</h1>
-        <div class="row">
-            <div class="col-sm-6" style="background-color:yellow;">
-                <p>Lorem ipsum...</p>
-            </div>
-            <div class="col-sm-6" style="background-color:pink;">
-                <p>Sed ut perspiciatis...</p>
-            </div>
+        <h1>About Me</h1>
+        <div class="hr"><hr /></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <img class="img img-thumbnail" src="http://placehold.it/150x150">
+        </div>
+        <div class="col-lg-4">
+            <p>My name is Kimberly Owens and I am a 2015 graduate of Elon University.
+                Upon graduation I became the Manager of US Southeast Territory at a tech startup in Raleigh, NC and in April 2016 I completed my CAPM certification
+                (Certified Associate in Project Management). In June of 2016 I  moved to Investor Relations for a private equity firm in Dallas, TX.
+                I have decided to return back to technology because I want to be in an enviroment
+                where I am constantly growing and learning.</p>
         </div>
     </div>
+    <div class="fixed-bottom">&copyCopyright 2017 Kimberly Owens</div>
 
 </div>
 
