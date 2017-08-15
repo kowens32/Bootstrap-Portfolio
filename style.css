@@ -12,7 +12,16 @@ body {
     border: solid blue;
 }
 
-.col {
+.col-sm-3 {
+    border: solid deeppink;
+}
+
+
+.col-lg-3 {
+    border: solid deeppink;
+}
+
+.col-lg-4 {
     border: solid deeppink;
 }
 
