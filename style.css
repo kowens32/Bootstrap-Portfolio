@@ -5,6 +5,7 @@ body {
 
 .container {
     border: solid green;
+    width: 100%;
 
 }
 
@@ -12,24 +13,36 @@ body {
     border: solid blue;
 }
 
-.col-sm-3 {
+/*.col-sm-3 {
     border: solid deeppink;
+}*/
+
+.col-lg-4 { border: solid pink;
+
+}
+.col-lg-3 { border: solid pink;
+
+
+}
+
+.col-lg-12 { border: solid pink;
+
+
+}
+
+.col-sm-3 { border: solid pink;
+
+
 }
 
 
-.col-lg-3 {
-    border: solid deeppink;
-}
-
-.col-lg-4 {
-    border: solid deeppink;
-}
 
 .social {
     width: 70px;
     padding:10px 10px 10px 10px;
     align-content: center;
 }
+
 
 .fixed-bottom {
     text-align: center;
